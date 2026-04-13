@@ -33,3 +33,35 @@ html, body{
     height: 100%;
     background: var(--cor-fundo);
 }
+
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: block;
+    width: 640px;
+    margin: auto;
+    padding:var(--espaço-padrao);
+}
+
+head{
+    width: 100%;
+    height: 50px;
+    background: var(--Cor-heard);
+}
+
+h1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: var(--Cor-branca);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--Cor-texto);
+    font-weight: bold;
+}
